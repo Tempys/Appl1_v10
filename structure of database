@@ -1,0 +1,15 @@
+CREATE DATABASE `test`;
+
+USE test;
+CREATE TABLE User (
+id INT(8)                     NOT NULL AUTO_INCREMENT,
+name VARCHAR (25)                NOT NULL ,
+age INT(8)                    NOT NULL ,
+isAdmin  BIT                     NOT NULL ,
+createdDate   TIMESTAMP          NOT NULL,
+PRIMARY KEY(id)
+
+)
+
+ENGINE =InnoDB
+DEFAULT CHARSET =utf8;
